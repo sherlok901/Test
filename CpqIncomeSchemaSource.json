@@ -1,0 +1,11 @@
+{
+  "OrderHeader": {
+    "Timestamp": "2024-07-19T18:14:36.000+0000",
+    "RecordId": "8018K0000018xTEQAY",
+    "OrderId": "6ZZZZM1",
+    "Vendor": "Microsoft",
+    "BusinessOperation": "Standard"
+  },
+  "OrderPayload": [
+  ]
+}

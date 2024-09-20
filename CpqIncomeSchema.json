@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "OrderHeader": {
+      "type": "object",
+      "properties": {
+        "Timestamp": {
+          "type": "string"
+        },
+        "RecordId": {
+          "type": "string"
+        },
+        "OrderId": {
+          "type": "string"
+        },
+        "Vendor": {
+          "type": "string"
+        },
+        "BusinessOperation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Timestamp",
+        "RecordId",
+        "OrderId",
+        "Vendor",
+        "BusinessOperation"
+      ]
+    },
+    "OrderPayload": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "OrderHeader",
+    "OrderPayload"
+  ]
+}
